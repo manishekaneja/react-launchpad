@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+*:focus {
+  outline: none;
+}
+*{
+  font-family: 'Raleway', sans-serif;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.card {
+  @apply rounded bg-white shadow-md p-6 dark:bg-gray-700 dark:text-white;
+}
